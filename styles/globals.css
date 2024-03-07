@@ -83,8 +83,94 @@
   color: var(--btn-highlight);
 }
 
-.contact-wrapper {
+#header {
+  opacity: 0;
+  animation-name: lefttoright;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.nav-wrapper {
+  opacity: 0;
+  animation-name: lefttoright;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+#projects {
+  opacity: 0;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+#skills {
+  opacity: 0;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+#experience {
+  opacity: 0;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+#certifications {
+  opacity: 0;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+#contact {
   margin-bottom: 120px;
+  /* position: relative; */
+  opacity: 0;
+  animation-name: move;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+  }
+  to {
+    /* left: 60%; */
+    opacity: 1;
+  }
+}
+
+@keyframes lefttoright {
+  from {
+    opacity: 0;
+    left: -60%;
+  }
+  to {
+    opacity: 1;
+    left: 0%;
+  }
+}
+
+@keyframes uptodown {
+  from {
+    /* opacity: 0; */
+    left: -60%;
+  }
+  to {
+    opacity: 1;
+    left: 0%;
+  }
 }
 
 .img-animation {

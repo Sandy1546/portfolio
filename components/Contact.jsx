@@ -17,7 +17,7 @@ const Contact = () => {
       </p>
       <div>
         <a
-          href="mailto:singh.sandip154@gmail.com"
+          href="mailto:sandip15467@gmail.com"
           className="flex items-center p-2 transition duration-75 rounded-lg hover:font-bold dark:hover:bg-gray-700 dark:text-white group"
         >
           <button

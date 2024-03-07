@@ -18,7 +18,7 @@ const Nav = () => {
         data-drawer-toggle="separator-sidebar"
         aria-controls="separator-sidebar"
         type="button"
-        className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        className="inline-flex items-center fixed top-0 right-1 z-10 bg-slate-500 text-zinc-800 p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
       >
         <span className="sr-only">Open sidebar</span>
         <svg
@@ -39,15 +39,39 @@ const Nav = () => {
 
       <aside
         id="separator-sidebar"
-        className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full duration-1000 lg:translate-x-0 nav-wrapper"
         aria-label="Sidebar"
       >
         <span className="S-letter-wrapper flex justify-center items-center pt-3">
-          <a href="#home" className="hidden md:block navbar-brand fs-3 ms-5">
+          <a href="#header" className="hidden lg:block navbar-brand fs-3 ms-5">
             <TbHexagonLetterS className="tagName-icon" size={52} />
           </a>
         </span>
+
         <div className="sidebar-wrapper h-full mx-4 my-4 px-7 py-4 overflow-y-auto rounded-lg dark:bg-gray-800">
+          <button
+            type="button"
+            data-drawer-hide="separator-sidebar"
+            aria-controls="separator-sidebar"
+            class="text-gray-400 block lg:hidden bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-7 end-5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span class="sr-only">Close menu</span>
+          </button>
+
+          {/* Sections List */}
           <ul className="sidebar-options-wrapper space-y-2 text-sm">
             {/* <li>
               <a
@@ -61,6 +85,7 @@ const Nav = () => {
             <li>
               <a
                 href="#projects"
+                data-drawer-hide="separator-sidebar"
                 className="flex items-center p-2 rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-950 hover:font-bold dark:hover:bg-gray-700 group"
               >
                 <GrTask size={24} />
@@ -70,6 +95,7 @@ const Nav = () => {
             <li>
               <a
                 href="#skills"
+                data-drawer-hide="separator-sidebar"
                 className="flex items-center p-2 rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-950 hover:font-bold dark:hover:bg-gray-700 group"
               >
                 {/* <svg
@@ -91,6 +117,7 @@ const Nav = () => {
             <li>
               <a
                 href="#experience"
+                data-drawer-hide="separator-sidebar"
                 className="flex items-center p-2 rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-950 hover:font-bold dark:hover:bg-gray-700 group"
               >
                 {/* <svg
@@ -111,6 +138,7 @@ const Nav = () => {
             <li>
               <a
                 href="#certifications"
+                data-drawer-hide="separator-sidebar"
                 className="flex items-center p-2 rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-950 hover:font-bold dark:hover:bg-gray-700 group"
               >
                 {/* <svg
@@ -131,6 +159,7 @@ const Nav = () => {
             <li>
               <a
                 href="#contact"
+                data-drawer-hide="separator-sidebar"
                 className="flex items-center p-2 rounded-lg dark:text-white hover:bg-gray-100 hover:text-gray-950 hover:font-bold dark:hover:bg-gray-700 group"
               >
                 {/* <svg
@@ -154,11 +183,13 @@ const Nav = () => {
             </li>
           </ul>
 
+          {/* Social Media List */}
           <ul className="sidebar-options-wrapper pt-4 mt-2 space-y-2 text-sm dark:border-gray-700">
             <span className="text-base">Socials</span>
             <li className="Mail-wrapper">
               <a
-                href="mailto:singh.sandip154@gmail.com"
+                href="mailto:sandip15467@gmail.com"
+                data-drawer-hide="separator-sidebar"
                 className="flex items-center p-2 transition duration-75 rounded-lg hover:bg-gray-100 hover:font-bold dark:hover:bg-gray-700 dark:text-white group"
               >
                 {/* <svg
@@ -177,6 +208,7 @@ const Nav = () => {
             <li className="Git-wrapper">
               <a
                 href="https://github.com/Sandy1546"
+                data-drawer-hide="separator-sidebar"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center p-2 transition duration-75 rounded-lg hover:bg-gray-100 hover:font-bold dark:hover:bg-gray-700 dark:text-white group"
@@ -197,6 +229,7 @@ const Nav = () => {
             <li className="LinkedIn-wrapper">
               <a
                 href="https://www.linkedin.com/in/enggsandipsingh"
+                data-drawer-hide="separator-sidebar"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center p-2 transition duration-75 rounded-lg hover:bg-gray-100 hover:font-bold dark:hover:bg-gray-700 dark:text-white group"

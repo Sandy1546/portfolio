@@ -9,8 +9,8 @@ const Header = () => {
         className="header-wrapper flex rounded-lg w-full bg-[url('/assets/images/cover.jpeg')] bg-no-repeat bg-cover"
         id="header"
       >
-        <div className="flex justify-center items-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-fliter backdrop-blur-md w-full gap-2 md:gap-10">
-          <div className="p-1 rounded-full bg-gradient-to-tr from-yellow-200 to-amber-600">
+        <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-fliter backdrop-blur-md w-full gap-2 md:gap-10">
+          <div className="rounded-full border-gradient-to-tr from-yellow-200 to-amber-600 flex items-center">
             <Image
               src="/assets/images/hero_pic.png"
               alt="Sandip Singh"
@@ -19,15 +19,15 @@ const Header = () => {
               loading="lazy"
               decoding="async"
               data-nimg="1"
-              className="hero-image object-cover p-1 bg-white rounded-full shadow-md"
+              className="hero-image object-cover p-1 bg-gradient-to-tr from-yellow-200 to-amber-700 rounded-full shadow-md"
             />
           </div>
 
           <div className="flex md:flex-1 flex-col justify-center gap-4">
             <div className="flex justify-between items-center gap-5">
-              <div className="text-3xl flex flex-col font-bold text-highlight">
-                <span>Sandip Singh</span>
-                <div className="text-sm mt-2 font-thin flex justify-between items-center">
+              <div className="text-2xl sm:text-3xl flex flex-col font-bold text-highlight">
+                Sandip Singh
+                <div className="text-sm font-thin flex justify-between items-center gap-7">
                   <span className="role">Software Developer</span>
                   {/* <a
                     className="block md:hidden"

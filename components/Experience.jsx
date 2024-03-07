@@ -2,8 +2,10 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section className="mt-5 pt-5 md:pt-9" id="experience">
-      <div className="text-xl font-medium text-zinc-200 pb-4">Experience</div>
+    <section className="mt-5 pt-5 md:pt-9 experience-wrapper" id="experience">
+      <div className="text-xl pl-2 font-medium text-zinc-200 pb-4">
+        Experience
+      </div>
 
       <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
         <ul

@@ -1,17 +1,13 @@
 import React from "react";
-import { FaPizzaSlice } from "react-icons/fa";
-import { FaSchool } from "react-icons/fa";
-import { GiDinosaurRex } from "react-icons/gi";
-import { FaShopify } from "react-icons/fa6";
 
 const Skills = () => {
   return (
     <section
-      className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-4 p-5 mt-5 md:mt-9 pt-9 md:px-0 md:pt-9"
+      className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-5 mt-5 md:mt-9 pt-9 md:px-0 md:pt-9 skills-wrapper"
       id="skills"
     >
       {/* My Skills */}
-      <div className="col-span-2 p-6 md:col-span-2 lg:col-span-3">
+      <div className="col-span-2 p-6 pl-1 md:col-span-2 lg:col-span-3">
         <div className="text-xl font-medium mt-2 text-zinc-200 mb-5 pb-4">
           What I know
         </div>
@@ -97,7 +93,7 @@ const Skills = () => {
       </div>
 
       {/* Other Projects */}
-      <div className="grid cardPrimary gap-6 p-6 shadow-lg">
+      {/* <div className="grid cardPrimary gap-6 p-6 shadow-lg">
         <span className="text-xl font-medium mt-2 text-zinc-200">
           More Projects
         </span>
@@ -141,7 +137,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

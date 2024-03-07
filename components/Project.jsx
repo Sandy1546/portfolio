@@ -4,7 +4,7 @@ import Image from "next/image";
 const Project = () => {
   return (
     <section
-      className="grid gap-8 md:px-0 mt-5 pt-5 md:pt-9 md:mt-9"
+      className="grid gap-8 md:px-0 mt-5 pt-5 md:pt-9 md:mt-9 projects-wrapper"
       id="projects"
     >
       <div className="text-xl font-medium text-zinc-200">Projects</div>
