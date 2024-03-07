@@ -132,7 +132,8 @@
 }
 
 #contact {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  /* background-color: ; */
   /* position: relative; */
   opacity: 0;
   animation-name: move;
