@@ -18,19 +18,19 @@ const Skills = () => {
               Frontend
             </div>
             <div className="flex flex-wrap gap-2">
-              <span className="rounded-md bg-body text-xs text-primary p-2">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-orange-500/60">
                 HTML
               </span>
-              <span className="rounded-md bg-body text-xs text-primary p-2">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">
                 CSS
               </span>
-              <span className="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-yellow-300/60">
                 Javascript
               </span>
-              <span className="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-blue-400/60">
                 React Js
               </span>
-              <span className="rounded-md bg-body text-xs text-primary p-2">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-gray-600/60">
                 Next JS
               </span>
               <span className="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">
@@ -45,10 +45,10 @@ const Skills = () => {
               Backend
             </div>
             <div className="flex flex-wrap gap-2">
-              <span className="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">
                 Asp.net
               </span>
-              <span className="rounded-md bg-body text-xs text-primary p-2">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-purple-500/60">
                 C#
               </span>
             </div>
@@ -60,10 +60,10 @@ const Skills = () => {
               Database
             </div>
             <div className="flex flex-wrap gap-2">
-              <span className="rounded-md bg-body text-xs text-primary p-2">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-pink-700/60">
                 Sql Server
               </span>
-              <span className="rounded-md bg-body text-xs text-primary p-2">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-green-500/60">
                 MongoDB
               </span>
             </div>
@@ -75,69 +75,22 @@ const Skills = () => {
               Others
             </div>
             <div className="flex flex-wrap gap-2">
-              <span className="rounded-md bg-body text-xs text-primary p-2">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-yellow-300/60">
                 Python
               </span>
-              <span className="rounded-md bg-body text-xs text-primary p-2">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">
                 CSS
               </span>
-              <span className="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-blue-700/60">
                 C++
               </span>
-              <span className="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">
+              <span className="rounded-md bg-body text-xs text-primary p-2 border border-blue-300/60">
                 Salesforce
               </span>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Other Projects */}
-      {/* <div className="grid cardPrimary gap-6 p-6 shadow-lg">
-        <span className="text-xl font-medium mt-2 text-zinc-200">
-          More Projects
-        </span>
-        <div className="grid grid-cols-1 gap-4 rounded-lg">
-          <div className="flex items-center gap-1 text-primary rounded-lg">
-            <FaShopify size={24} />
-            <div className="flex flex-1 flex-col px-4 py-2">
-              <span className="flex text-sm font-medium">Apna Bazar</span>
-              <span className="flex text-info text-xs">
-                React js, HTML, CSS
-              </span>
-            </div>
-          </div>
-          <div className="flex items-center gap-1 text-primary rounded-lg">
-            <FaPizzaSlice size={24} />
-            <div className="flex flex-1 flex-col px-4 py-2">
-              <span className="flex text-sm font-medium">
-                Pizza Order Taking Bot
-              </span>
-              <span className="flex text-info text-xs">Chat gpt, Python</span>
-            </div>
-          </div>
-          <div className="flex items-center gap-1 text-primary rounded-lg">
-            <FaSchool size={24} />
-            <div className="flex flex-1 flex-col px-4 py-2">
-              <span className="flex text-sm font-medium">
-                Student Management System
-              </span>
-              <span className="flex text-info text-xs">
-                Asp.net, C#, Sql Server, JavaScript
-              </span>
-            </div>
-          </div>
-          <div className="flex items-center gap-1 text-primary rounded-lg">
-            <GiDinosaurRex size={24} />
-            <div className="flex flex-1 flex-col px-4 py-2">
-              <span className="flex text-sm font-medium">
-                Chrome Dino Game Bot
-              </span>
-              <span className="flex text-info text-xs">Python</span>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 };
