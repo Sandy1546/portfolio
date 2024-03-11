@@ -29,15 +29,7 @@ const Header = () => {
                 Sandip Singh
                 <div className="text-sm font-thin flex justify-between items-center gap-7">
                   <span className="role">Software Developer</span>
-                  {/* <a
-                    className="block md:hidden"
-                    target="_blank"
-                    href="https://instagram.com/ezSnippet"
-                  >
-                    <button>
-                      <FaInstagram />
-                    </button>
-                  </a> */}
+
                   <a
                     href="https://www.linkedin.com/in/enggsandipsingh"
                     target="_blank"

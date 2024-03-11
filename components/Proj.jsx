@@ -17,7 +17,7 @@ const Proj = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 xl::grid-cols-4 gap-5">
           {/* Promptopia project */}
           <a href="https://prompts-world.netlify.app/" target="_blank">
-            <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+            <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis opacity-60 hover:opacity-80">
               <Image
                 src="/assets/images/Projects/Promptopia.png"
                 alt="project logo"
@@ -39,14 +39,13 @@ const Proj = () => {
 
           {/* Portfolio Project */}
           <a href="https://aishwarya-mokashi.netlify.app" target="_blank">
-            <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+            <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis opacity-60 hover:opacity-80">
               <Image
                 src="/assets/images/Projects/Portfolio.png"
                 alt="project logo"
                 width="700"
                 height="700"
                 decoding="async"
-                data-nimg="1"
                 className="aspect-video object-cover"
               />
 

@@ -3,17 +3,17 @@ import React from "react";
 const Contact = () => {
   return (
     <section
-      className="mt-36 pt-11 sm:pb-36 sm:pb-11 flex flex-col justify-center items-center md:pt-11 contact-wrapper"
+      className="mt-10 pt-11 sm:pb-36 sm:pb-11 flex flex-col justify-center items-center md:pt-11 contact-wrapper"
       id="contact"
     >
       <span className="text-xl font-medium text-center text-zinc-200">
         Get In Touch
       </span>
       <p className="text-center contacts-wrapper mt-9">
-        Although I’m not currently looking for any new opportunities, my
-        inbox/Linkedin/insta is always open. Whether you have a question or just
-        want to say hi, I’ll try my best to get back to you!. If you want to
-        have your custom portfolio website, Do connect with me!!
+        Hey I’m currently looking for new opportunities, my inbox/Linkedin is
+        always open. Whether you have a question or just want to say hi, I’ll
+        try my best to get back to you!. If you want to have your custom
+        portfolio website, Do connect with me!!
       </p>
       <div>
         <a

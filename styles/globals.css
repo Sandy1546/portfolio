@@ -83,6 +83,10 @@
   color: var(--btn-highlight);
 }
 
+.bg-highlight {
+  background-color: var(--btn-highlight);
+}
+
 #header {
   opacity: 0;
   animation-name: lefttoright;
@@ -97,6 +101,15 @@
   animation-duration: 3s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 7px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0 0 8px 8px;
 }
 
 #projects {
@@ -133,8 +146,6 @@
 
 #contact {
   padding-bottom: 120px;
-  /* background-color: ; */
-  /* position: relative; */
   opacity: 0;
   animation-name: move;
   animation-duration: 2s;
@@ -147,7 +158,6 @@
     opacity: 0;
   }
   to {
-    /* left: 60%; */
     opacity: 1;
   }
 }

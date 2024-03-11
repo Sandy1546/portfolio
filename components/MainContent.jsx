@@ -4,7 +4,7 @@ import Proj from "./Proj";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Experience from "./Experience";
-import Certification from "./Certification";
+import Cert from "./Cert";
 
 const MainContent = () => {
   return (
@@ -12,13 +12,13 @@ const MainContent = () => {
       <div className="lg:ml-64">
         <Header />
         <div className="lg:p-4 rounded-lg dark:border-gray-700">
-          {/* <Project /> */}
           <Proj />
           <Skills />
 
           <Experience />
 
-          <Certification />
+          <Cert />
+
           <Contact />
         </div>
       </div>

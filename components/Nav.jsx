@@ -48,7 +48,7 @@ const Nav = () => {
           </a>
         </span>
 
-        <div className="sidebar-wrapper h-full mx-4 my-4 px-7 py-4 overflow-y-auto rounded-lg dark:bg-gray-800">
+        <div className="sidebar-wrapper h-full mr-4 lg:mx-4 my-4 px-7 py-4 overflow-y-auto rounded-lg dark:bg-gray-800">
           <button
             type="button"
             data-drawer-hide="separator-sidebar"
@@ -185,7 +185,7 @@ const Nav = () => {
 
           {/* Social Media List */}
           <ul className="sidebar-options-wrapper pt-4 mt-2 space-y-2 text-sm dark:border-gray-700">
-            <span className="text-base">Socials</span>
+            <span className="text-base font-bold">Socials</span>
             <li className="Mail-wrapper">
               <a
                 href="mailto:sandip15467@gmail.com"
