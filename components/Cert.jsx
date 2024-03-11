@@ -3,124 +3,128 @@ import Image from "next/image";
 
 const Cert = () => {
   return (
-    <section className="grid gap-5 p-5 md:p-5 mt-5" id="certifications">
-      <div className="text-xl font-bold text-zinc-200 mb-3">Certifications</div>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
-        {/* Cert 1  */}
-        <div
-          data-modal-target="modal-PythonDataStructures"
-          data-modal-toggle="modal-PythonDataStructures"
-          className="flex flex-col gap-3 cursor-pointer"
-        >
-          <div className="relative aspect-video rounded-lg overflow-hidden">
-            <img
-              alt="Cert1"
-              loading="lazy"
-              decoding="async"
-              className="object-cover opacity-60 hover:opacity-80"
-              src="/assets/images/Certifications/PythonDataStructures.jpg"
-            />
-            <div className="progress-bar">
-              <div className="h-full bg-highlight w-12/12"></div>
+    <>
+      <section className="grid gap-5 p-5 md:p-5 mt-5" id="certifications">
+        <div className="text-xl font-bold text-zinc-200 mb-3">
+          Certifications
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl::grid-cols-5 gap-5">
+          {/* Cert 1  */}
+          <div
+            data-modal-target="modal-PythonDataStructures"
+            data-modal-toggle="modal-PythonDataStructures"
+            className="flex flex-col gap-3 cursor-pointer"
+          >
+            <div className="relative aspect-video rounded-lg overflow-hidden">
+              <img
+                alt="Cert1"
+                loading="lazy"
+                decoding="async"
+                className="object-cover opacity-60 hover:opacity-80"
+                src="/assets/images/Certifications/PythonDataStructures.jpg"
+              />
+              <div className="progress-bar">
+                <div className="h-full bg-highlight w-12/12"></div>
+              </div>
+            </div>
+            <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
+              Python Data Structures
             </div>
           </div>
-          <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
-            Python Data Structures
-          </div>
-        </div>
 
-        {/* Cert 2 */}
-        <div
-          data-modal-target="modal-CapstoneRetrievingProcessingAndVisualizing"
-          data-modal-toggle="modal-CapstoneRetrievingProcessingAndVisualizing"
-          className="cursor-pointer flex flex-col gap-3"
-        >
-          <div className="relative aspect-video rounded-lg overflow-hidden">
-            <img
-              alt="Cert1"
-              loading="lazy"
-              decoding="async"
-              className="object-cover opacity-60 hover:opacity-80"
-              src="/assets/images/Certifications/CapstoneRetrievingProcessingAndVisualizing.jpg"
-            />
-            <div className="progress-bar">
-              <div className="h-full bg-highlight w-9/12"></div>
+          {/* Cert 2 */}
+          <div
+            data-modal-target="modal-CapstoneRetrievingProcessingAndVisualizing"
+            data-modal-toggle="modal-CapstoneRetrievingProcessingAndVisualizing"
+            className="cursor-pointer flex flex-col gap-3"
+          >
+            <div className="relative aspect-video rounded-lg overflow-hidden">
+              <img
+                alt="Cert1"
+                loading="lazy"
+                decoding="async"
+                className="object-cover opacity-60 hover:opacity-80"
+                src="/assets/images/Certifications/CapstoneRetrievingProcessingAndVisualizing.jpg"
+              />
+              <div className="progress-bar">
+                <div className="h-full bg-highlight w-9/12"></div>
+              </div>
+            </div>
+            <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
+              Capstone Retrieving Processing And Visualizing
             </div>
           </div>
-          <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
-            Capstone Retrieving Processing And Visualizing
-          </div>
-        </div>
 
-        {/* Cert 3 */}
-        <div
-          data-modal-target="modal-ProgrammingForEverybody(GettingStartedWithPython)"
-          data-modal-toggle="modal-ProgrammingForEverybody(GettingStartedWithPython)"
-          className="cursor-pointer flex flex-col gap-3"
-        >
-          <div className="relative aspect-video rounded-lg overflow-hidden">
-            <img
-              alt="Cert1"
-              loading="lazy"
-              decoding="async"
-              className="object-cover opacity-60 hover:opacity-80"
-              src="/assets/images/Certifications/ProgrammingForEverybody(GettingStartedWithPython).jpg"
-            />
-            <div className="progress-bar">
-              <div className="h-full bg-highlight w-11/12"></div>
+          {/* Cert 3 */}
+          <div
+            data-modal-target="modal-ProgrammingForEverybody(GettingStartedWithPython)"
+            data-modal-toggle="modal-ProgrammingForEverybody(GettingStartedWithPython)"
+            className="cursor-pointer flex flex-col gap-3"
+          >
+            <div className="relative aspect-video rounded-lg overflow-hidden">
+              <img
+                alt="Cert1"
+                loading="lazy"
+                decoding="async"
+                className="object-cover opacity-60 hover:opacity-80"
+                src="/assets/images/Certifications/ProgrammingForEverybody(GettingStartedWithPython).jpg"
+              />
+              <div className="progress-bar">
+                <div className="h-full bg-highlight w-11/12"></div>
+              </div>
+            </div>
+            <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
+              Programming For Everybody (Getting Started With Python)
             </div>
           </div>
-          <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
-            Programming For Everybody (Getting Started With Python)
-          </div>
-        </div>
 
-        {/* Cert 4 */}
-        <div
-          data-modal-target="modal-UsingDatabasesWithPython"
-          data-modal-toggle="modal-UsingDatabasesWithPython"
-          className="cursor-pointer flex flex-col gap-3"
-        >
-          <div className="relative aspect-video rounded-lg overflow-hidden">
-            <img
-              alt="Cert1"
-              loading="lazy"
-              decoding="async"
-              className="object-cover opacity-60 hover:opacity-80"
-              src="/assets/images/Certifications/UsingDatabasesWithPython.jpg"
-            />
-            <div className="progress-bar">
-              <div className="h-full bg-highlight w-10/12"></div>
+          {/* Cert 4 */}
+          <div
+            data-modal-target="modal-UsingDatabasesWithPython"
+            data-modal-toggle="modal-UsingDatabasesWithPython"
+            className="cursor-pointer flex flex-col gap-3"
+          >
+            <div className="relative aspect-video rounded-lg overflow-hidden">
+              <img
+                alt="Cert1"
+                loading="lazy"
+                decoding="async"
+                className="object-cover opacity-60 hover:opacity-80"
+                src="/assets/images/Certifications/UsingDatabasesWithPython.jpg"
+              />
+              <div className="progress-bar">
+                <div className="h-full bg-highlight w-10/12"></div>
+              </div>
+            </div>
+            <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
+              Using Databases With Python
             </div>
           </div>
-          <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
-            Using Databases With Python
-          </div>
-        </div>
 
-        {/* Cert 5 */}
-        <div
-          data-modal-target="modal-UsingPythonToAccessWebData"
-          data-modal-toggle="modal-UsingPythonToAccessWebData"
-          className="cursor-pointer flex flex-col gap-3"
-        >
-          <div className="relative aspect-video rounded-lg overflow-hidden">
-            <img
-              alt="Cert1"
-              loading="lazy"
-              decoding="async"
-              className="object-cover opacity-60 hover:opacity-80"
-              src="/assets/images/Certifications/UsingPythonToAccessWebData.jpg"
-            />
-            <div className="progress-bar">
-              <div className="h-full bg-highlight w-9/12"></div>
+          {/* Cert 5 */}
+          <div
+            data-modal-target="modal-UsingPythonToAccessWebData"
+            data-modal-toggle="modal-UsingPythonToAccessWebData"
+            className="cursor-pointer flex flex-col gap-3"
+          >
+            <div className="relative aspect-video rounded-lg overflow-hidden">
+              <img
+                alt="Cert1"
+                loading="lazy"
+                decoding="async"
+                className="object-cover opacity-60 hover:opacity-80"
+                src="/assets/images/Certifications/UsingPythonToAccessWebData.jpg"
+              />
+              <div className="progress-bar">
+                <div className="h-full bg-highlight w-9/12"></div>
+              </div>
+            </div>
+            <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
+              Using Python To Access Web Data
             </div>
           </div>
-          <div className="font-semibold md:font-bold text-center text-sm lg:text-base header-wrapper">
-            Using Python To Access Web Data
-          </div>
         </div>
-      </div>
+      </section>
 
       {/* MOdal 1 */}
       <div
@@ -361,7 +365,7 @@ const Cert = () => {
           </div>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 
