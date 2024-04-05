@@ -4,6 +4,7 @@ import { FaPizzaSlice } from "react-icons/fa";
 import { FaSchool } from "react-icons/fa";
 import { GiDinosaurRex } from "react-icons/gi";
 import { FaShopify } from "react-icons/fa6";
+import projectlogo from "../public/assets/images/Projects/portfolio_logo.png";
 
 const Proj = () => {
   return (
@@ -19,13 +20,14 @@ const Proj = () => {
           <a href="https://prompts-world.netlify.app/" target="_blank">
             <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis opacity-60 hover:opacity-80">
               <Image
-                src="/assets/images/Projects/Promptopia.png"
+                // src="/assets/images/Projects/Promptopia.png"
+                src="/assets/images/Projects/promptopia_logo.svg"
                 alt="project logo"
                 width="700"
                 height="700"
                 decoding="async"
-                data-nimg="1"
-                className="aspect-video object-cover"
+                // data-nimg="1"
+                className="aspect-video object-contain p-4"
               />
 
               <div className="flex flex-col px-4 py-2 h-24">
@@ -41,12 +43,13 @@ const Proj = () => {
           <a href="https://aishwarya-mokashi.netlify.app" target="_blank">
             <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis opacity-60 hover:opacity-80">
               <Image
-                src="/assets/images/Projects/Portfolio.png"
+                // src="/assets/images/Projects/Portfolio.png"
+                src={projectlogo}
                 alt="project logo"
-                width="700"
-                height="700"
+                width={700}
+                height={700}
                 decoding="async"
-                className="aspect-video object-cover"
+                className="aspect-video object-contain p-2"
               />
 
               <div className="flex flex-col px-4 py-2 h-24">
